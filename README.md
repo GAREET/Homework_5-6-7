@@ -1,5 +1,7 @@
 # Homework_5
 
+
+
 ☑ Создать новый публичный репозиторий.
 ☑ Сверстать страницу по БЭМ с использованием Flexbox модели.
 ☑ Сделать README к этой странице.
@@ -12,4 +14,4 @@
 
 
 
-https://gareet.github.io/Homework_5/
+link {https://gareet.github.io/Homework_5/
