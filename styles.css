@@ -6,20 +6,19 @@
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
-
-    background-color: bisque;
-    padding-bottom: 300px;
-
+    background-size: 100%;
+    padding-bottom: 100px;
 }
 
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 2000px;
     text-align: center;
     background-color: rgb(201, 243, 16);
-    background: url(img/Cyberpunk2077NG_Love_it_or_burn_it_RGB-en.jpg);
+    background: url(img/Cyberpunk2077NG_Love_it_or_burn_it_RGB-en.jpg) no-repeat;
     background-attachment: fixed;
+
 }
 
 
@@ -36,6 +35,7 @@ body {
     border: 10px solid rgb(109, 214, 24);
     margin: 0 auto;
 }
+
 
 
 .about__article {
