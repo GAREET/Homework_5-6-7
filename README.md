@@ -14,4 +14,4 @@
 
 
 
-link {https://gareet.github.io/Homework_5/
+link {https://gareet.github.io/Homework_5/[текст](ссылка)
