@@ -1,4 +1,5 @@
-# Homework_5-6
+# Homework_5-6-7
+[My page](https://gareet.github.io/Homework_5-6)
 
 ☑ Создать новый публичный репозиторий.
 
@@ -30,5 +31,20 @@
 ☑ Проверить что был четкий README и ссылка на github-pages
 
 
+☑ Установить расширение "eCSStractor for VSCode" (это его полное название) для копирования селекторов.
 
-[My page](https://gareet.github.io/Homework_5-6)
+☑ Валидировать ваш HTML и CSS с помощью W3C Validators
+
+☑ Доработать шаблон с hw6, сделать адаптив
+
+☑Закрепить: БЭМ, Flexbox, Form
+
+☑Закрепить: Position: absolute, fixed, sticky, z-index; свойство transition
+
+☑Закрепить: :root (сделать переменные)
+
+☑Закрепить: :hover, :first-child, :last-child, :nth-child, :not(), :visited, :nth-child(), :target, :required, :focus
+
+☑Закрепить width: min-content, max-content, fit-content
+
+☑Проверить что был четкий README и ссылка на github-pages
