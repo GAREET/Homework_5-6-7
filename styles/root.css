@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-red: rgb(206, 90, 77);
+    --color-blue: rgb(88, 130, 219);
+    --color-green: rgb(88, 219, 121);
+
+    --margin-auto: 0 auto;
+}

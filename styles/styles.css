@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: auto;
+}
+
+body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 2000px;
+    height: 2500px;
+    text-align: center;
+    background: url(../img/fon.jpg) no-repeat;
+    background-attachment: fixed;
+}
+
+.header__title,
+.header__sub-title {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(16, 14, 16, 0.5);
+}
+
+.header__image {
+    max-width: 600px;
+    height: 350px;
+    border: 10px solid black;
+    margin: 0 auto;
+    box-shadow: 20px 15px 5px red;
+    background: url(../img/Cyberpunk2077NG_Love_it_or_burn_it_RGB-en.jpg) center/cover no-repeat;
+    box-shadow: 20px 15px 5px red;
+}
+
+.header__image:hover {
+    background: url(../img/The_Chakras_Off_Babe-en.jpg) center/cover no-repeat;
+    border: 2px solid black;
+}
+
+.about__article {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.about__title,
+.about__article__description {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(13, 14, 13, 0.5);
+}
+
+.about__article__image {
+
+    width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px red;
+    background: url(../img/V-Origami-en.jpg) center/cover no-repeat;
+}
+
+.about__article__image:hover {
+    background: url(../img/Running_the_show-en.jpg) center/cover no-repeat;
+    border: 2px;
+}
+
+.about__article__description {
+    text-align: left;
+    width: 370px;
+    align-items: center;
+}
+
+.photos {
+    max-width: 2000px;
+}
+
+.photos__title {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(16, 14, 16, 0.5);
+}
+
+.photos__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.photos__container__photo {
+    width: 450px;
+    height: 300px;
+    justify-content: center;
+}
+
+.photos__container__photo_element_1 {
+    background: url(../img/1.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_2 {
+    background: url(../img/2.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_3 {
+    background: url(../img/3.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_4 {
+    background: url(../img/4.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_5 {
+    background: url(../img/5.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_6 {
+    background: url(../img/6.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_7 {
+    background: url(../img/7.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_8 {
+    background: url(../img/8.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_9 {
+    background: url(../img/9.jpg) center/cover no-repeat;
+}
+
+.photos__container__photo_element_10 {
+    background: url(../img/10.jpg) center/cover no-repeat;
+}
+
+.VIDEOS {
+    max-width: 2000px;
+}
+
+.VIDEOS__title {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(16, 14, 16, 0.5);
+}
+
+.video__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.videos__container__video {
+    width: 450px;
+    height: 300px;
+    justify-content: center;
+}
+
+.social-footer {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+
+.social-media-icon {
+    margin: 10px;
+    padding: 8px;
+}
+
+.topbutton {
+    width: 100px;
+    border: 2px solid #ccc;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: #333;
+    font-family: verdana;
+    font-size: 12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+footer {
+    background: url(../img/foter.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    max-width: auto;
+    height: auto;
+}
+
+
+.block-form {
+    display: flex;
+    width: 100%;
+    height: 387px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block-form__footer {
+    display: flex;
+    min-width: 60%;
+    max-height: 230px;
+    flex-wrap: wrap;
+}
+
+.block-form__footer__text {
+    display: flex;
+    max-width: 400px;
+    min-height: 220px;
+    flex-direction: column;
+
+}
+
+.block-form__footer__text h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: rgb(157, 255, 0);
+}
+
+.block-form__footer__text p {
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 34px;
+    color: rgb(30, 255, 0);
+
+}
+
+#block-form__footer__input {
+    display: flex;
+    Width: 500px;
+    Height: 240px;
+    flex-direction: column;
+}
+
+#block-form__footer__input h6 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin: 0;
+}
+
+#input__name,
+#input__email {
+    height: 38px;
+    background: black;
+    border: 20px solid black;
+    border-radius: 1px;
+    color: #ff0000;
+}
+
+#input__submit {
+    color: rgb(255, 0, 0);
+    Width: 80px;
+    Height: 50px;
+    background: red;
+    border-radius: 6px;
+}
+
+#input__submit:hover {
+    background-color: red;
+}
+
+.block-form {
+    display: flex;
+    width: 100%;
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block-form__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block-form__footer__text {
+    flex-direction: column;
+    max-width: 440px;
+    min-height: 250px;
+    display: flex;
+
+}
+
+.block-form__footer__text h2 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #570606;
+}
+
+.block-form__footer__text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #8a0b0b;
+
+}
+
+#block-form__footer__input {
+    display: flex;
+    Width: 450px;
+    Height: 300px;
+    flex-direction: column;
+}
+
+#block-form__footer__input h6 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+
+}
+
+#input__name,
+#input__email {
+    height: 38px;
+    background: rgb(208, 255, 0);
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-family: 'Georgia';
+    color: red;
+}
+
+#input__submit {
+    color: #1eff00;
+    Width: 60px;
+    Height: 40px;
+    background: #000000;
+    border-radius: 4px;
+    margin-top: 2%
+}
+
+#input__submit:hover {
+    background-color: #000000;
+}

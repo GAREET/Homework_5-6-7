@@ -5,12 +5,15 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
   <!-- Фовиконка -->
   <link rel="icon" href="Favicon/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles/root.css" />
+  <link rel="stylesheet" href="/styles/image-hover.css" />
+  <link rel="stylesheet" href="/styles/styles.css" />
   <title>Cuberpunk</title>
 </head>
 
@@ -27,22 +30,20 @@
 
 
     <main>
-      <section class="about">
+      <section class=" about">
         <h2 class="about__title">НАЙТ-СИТИ ИЗМЕНИТ ВАС НАВСЕГДА</h2>
 
-
         <!-- Кнопка ютюб видоса  -->
-
 
         <a href="https://www.youtube.com/watch?v=ISzlFHcS-gY" data-content-rating="y" class="l-header__play-button"
           target="_blank"><img src="https://www.cyberpunk.net/build/images/home/button-play-6fa85e5a.png" alt="Play" />
         </a>
         <div class="about__article">
-          <div class="about__article__image"></div>
+          <div class="about__article__image">
+          </div>
+
           <div class="about__article__description">
-
-
-            <h3>Full Description</h3>
+            <h3>НАЙТ-СИТИ ИЗМЕНИТ ВАС НАВСЕГДА</h3>
             <p>
               Cyberpunk 2077 — приключенческая ролевая игра, действие которой
               происходит в мегаполисе Найт-Сити, где власть, роскошь и
@@ -54,6 +55,39 @@
             </p>
           </div>
         </div>
+
+        <section class="VIDEOS">
+          <h2 class="VIDEOS__title">Cuberpunk 2077 VIDEOS</h2>
+          <div class="video__container">
+            <div class="videos__container__video videos__container__video_element_1">
+              <video muted="" preload="auto" loop="" autoplay="autoplay" style="margin: auto;display:block;width:100%">
+                <source src="https://items.gog.com/not_a_cp/music.mp4">
+              </video>
+            </div>
+
+            <div class="videos__container__video videos__container__video_element_2">
+              <video muted="" preload=" auto" loop="" autoplay="autoplay" style="margin: auto;display:block;width:100%">
+                <source src="https://items.gog.com/not_a_cp/tech.mp4">
+              </video>
+
+            </div>
+
+            <div class="videos__container__video videos__container__video_element_3">
+              <video muted="" preload=" auto" loop="" autoplay="autoplay" style="margin: auto;display:block;width:100%">
+                <source src="https://items.gog.com/not_a_cp/world.mp4">
+              </video>
+            </div>
+
+            <div class="videos__container__video videos__container__video_element_4">
+              <video muted="" preload=" auto" loop="" autoplay="autoplay" style="margin: auto;display:block;width:100%">
+                <source src="https://items.gog.com/not_a_cp/character.mp4">
+              </video>
+            </div>
+
+          </div>
+
+
+        </section>
 
         <section class="photos">
           <h2 class="photos__title">Cuberpunk 2077</h2>
@@ -70,32 +104,51 @@
             <div class="photos__container__photo photos__container__photo_element_10"></div>
           </div>
         </section>
-
-
-
-
-
       </section>
   </div>
-
   </main>
 
 
-
-
   <footer>
+
+
+
+
+    <div class="block-form">
+      <section class="block-form__footer">
+        <span class="block-form__footer__text">
+          <h2> БУДЬТЕ ПЕРВЫМИ!</h2>
+          <p>Подпишитесь на рассылку новостей о Cyberpunk 2077</p>
+
+        </span>
+        <form action="#" method="post" id="block-form__footer__input">
+          <h2> Your name:</h2>
+
+          <input type="text" name="username" maxlength="18" placeholder="Enter your name" id="input__name">
+          <h2> Email Address:</h2>
+          <input type="text" name="Email" maxlength="28" placeholder="Enter Your Email" id="input__email">
+          <input type="submit" value="submit" id="input__submit">
+
+        </form>
+      </section>
+    </div>
+
+
     <!-- Соцыальные сети -->
 
 
-
-
-
     <div class="social-footer">
+
+
+      <h2>Где нас найти</h2>
 
       <div class="social-media-icon">
         <a href=" https://www.youtube.com/user/CyberPunkGame"" target=" _blank">
           <img src="icons soc/icon-youtube-cd7b4275.svg" width="32" height="32" alt="youtube">
         </a>
+
+
+
       </div>
 
       <div class="social-media-icon">
@@ -103,8 +156,6 @@
           <img src="icons soc/icon-vk-bw-b095f327.svg" width="32" height="32" alt="VK">
         </a>
       </div>
-
-
 
       <div class="social-media-icon">
         <a href="http://facebook.com/CyberpunkGameRU" target="_blank">
@@ -145,19 +196,6 @@
     </div>
 
     <a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </footer>
 </body>
