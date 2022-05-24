@@ -1,5 +1,5 @@
 # Homework_5-6-7
-[My page](https://gareet.github.io/Homework_5-6)
+[My page](https://gareet.github.io/Homework_5-6-7/)
 
 ☑ Создать новый публичный репозиторий.
 
